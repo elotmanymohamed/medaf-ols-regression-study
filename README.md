@@ -1,6 +1,8 @@
 # 📈 CAPM / MEDAF — Attijariwafa Bank vs MASI
 
-<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python" /><img src="https://img.shields.io/badge/Statsmodels-OLS%20Regression-orange" alt="Statsmodels" /><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /><img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status" />> **Capital Asset Pricing Model (MEDAF)** — Estimation du risque systématique (β) de l'action **Attijariwafa Bank (ATR)** sur la Bourse de Casablanca, avec validation économétrique complète des hypothèses de Gauss-Markov.
+<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python" /><img src="https://img.shields.io/badge/Statsmodels-OLS%20Regression-orange" alt="Statsmodels" /><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /><img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status" />
+
+>**Capital Asset Pricing Model (MEDAF)** — Estimation du risque systématique (β) de l'action **Attijariwafa Bank (ATR)** sur la Bourse de Casablanca, avec validation économétrique complète des hypothèses de Gauss-Markov.
 
 ---
 
