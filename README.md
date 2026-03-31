@@ -99,8 +99,8 @@ pip install -r requirements.txt
 
 Télécharger les données historiques depuis [Investing.com](https://investing.com) :
 
-- **ATR** : Attijariwafa Bank → Données historiques → Exporter `.xlsx`
-- **MASI** : MASI Index → Données historiques → Exporter `.xlsx`
+- **ATR** : Attijariwafa Bank → Données historiques → Exporter `.csv`
+- **MASI** : MASI Index → Données historiques → Exporter `.csv`
 
 Placer les fichiers dans `data/`.
 
