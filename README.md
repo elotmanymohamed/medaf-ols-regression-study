@@ -34,13 +34,9 @@ $$\\underbrace{\\text{Var}(R_i)}*{\\text{risque total}} = \\underbrace{\\beta_i^
 
 | Paramètre | Valeur | Interprétation |
 | --- | --- | --- |
-| **β (Bêta)** | `~0.85` | ATR est **défensive** — moins volatile que le marché |
-| **α (Alpha)** | `~0.00` | Performance anormale nulle (H₀: α=0 non rejetée) |
-| **R²** | `~0.65` | 65% de la variance d'ATR expliquée par le MASI |
-| **Sharpe Ratio** | `~0.42` | Rendement ajusté du risque (Rf = 3.5% — BdT Maroc) |
-
-> ⚠️ Ces valeurs sont indicatives. Exécutez le notebook pour obtenir les résultats exacts sur vos données.
-
+| **β (Bêta)** | `~1.1390` | ATR est **défensive** — moins volatile que le marché |
+| **α (Alpha)** | `~-0.000066` | Performance anormale nulle (H₀: α=0 non rejetée) |
+| **R²** | `~0.4085` | 65% de la variance d'ATR expliquée par le MASI |
 ---
 
 ## 🗂️ Structure du Projet
@@ -49,8 +45,8 @@ $$\\underbrace{\\text{Var}(R_i)}*{\\text{risque total}} = \\underbrace{\\beta_i^
 CAPM-Morocco-Market-Analysis/
 │
 ├── 📁 data/                    # Données brutes (Investing.com)
-│   ├── ATR.xlsx                # Prix quotidiens Attijariwafa Bank
-│   └── MASI.xlsx               # Indice MASI (Moroccan All Shares Index)
+│   ├── ATR.csv                # Prix quotidiens Attijariwafa Bank
+│   └── MASI.csv               # Indice MASI (Moroccan All Shares Index)
 │
 ├── 📁 src/                     # Module Python réutilisable
 │   ├── __init__.py
