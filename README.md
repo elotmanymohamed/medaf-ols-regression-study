@@ -1,6 +1,8 @@
 # 📈 CAPM / MEDAF — Attijariwafa Bank vs MASI
 
-<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python" /><img src="https://img.shields.io/badge/Statsmodels-OLS%20Regression-orange" alt="Statsmodels" /><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /><img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status" />> **Capital Asset Pricing Model (MEDAF)** — Estimation du risque systématique (β) de l'action **Attijariwafa Bank (ATR)** sur la Bourse de Casablanca, avec validation économétrique complète des hypothèses de Gauss-Markov.
+<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" alt="Python" /><img src="https://img.shields.io/badge/Statsmodels-OLS%20Regression-orange" alt="Statsmodels" /><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /><img src="https://img.shields.io/badge/Status-Complete-brightgreen" alt="Status" />
+
+>**Capital Asset Pricing Model (MEDAF)** — Estimation du risque systématique (β) de l'action **Attijariwafa Bank (ATR)** sur la Bourse de Casablanca, avec validation économétrique complète des hypothèses de Gauss-Markov.
 
 ---
 
@@ -34,13 +36,9 @@ $$\\underbrace{\\text{Var}(R_i)}*{\\text{risque total}} = \\underbrace{\\beta_i^
 
 | Paramètre | Valeur | Interprétation |
 | --- | --- | --- |
-| **β (Bêta)** | `~0.85` | ATR est **défensive** — moins volatile que le marché |
-| **α (Alpha)** | `~0.00` | Performance anormale nulle (H₀: α=0 non rejetée) |
-| **R²** | `~0.65` | 65% de la variance d'ATR expliquée par le MASI |
-| **Sharpe Ratio** | `~0.42` | Rendement ajusté du risque (Rf = 3.5% — BdT Maroc) |
-
-> ⚠️ Ces valeurs sont indicatives. Exécutez le notebook pour obtenir les résultats exacts sur vos données.
-
+| **β (Bêta)** | `~1.1390` | ATR est **défensive** — moins volatile que le marché |
+| **α (Alpha)** | `~-0.000066` | Performance anormale nulle (H₀: α=0 non rejetée) |
+| **R²** | `~0.4085` | 41% de la variance d'ATR expliquée par le MASI |
 ---
 
 ## 🗂️ Structure du Projet
@@ -49,8 +47,8 @@ $$\\underbrace{\\text{Var}(R_i)}*{\\text{risque total}} = \\underbrace{\\beta_i^
 CAPM-Morocco-Market-Analysis/
 │
 ├── 📁 data/                    # Données brutes (Investing.com)
-│   ├── ATR.xlsx                # Prix quotidiens Attijariwafa Bank
-│   └── MASI.xlsx               # Indice MASI (Moroccan All Shares Index)
+│   ├── ATR.csv                # Prix quotidiens Attijariwafa Bank
+│   └── MASI.csv               # Indice MASI (Moroccan All Shares Index)
 │
 ├── 📁 src/                     # Module Python réutilisable
 │   ├── __init__.py
@@ -103,8 +101,8 @@ pip install -r requirements.txt
 
 Télécharger les données historiques depuis [Investing.com](https://investing.com) :
 
-- **ATR** : Attijariwafa Bank → Données historiques → Exporter `.xlsx`
-- **MASI** : MASI Index → Données historiques → Exporter `.xlsx`
+- **ATR** : Attijariwafa Bank → Données historiques → Exporter `.csv`
+- **MASI** : MASI Index → Données historiques → Exporter `.csv`
 
 Placer les fichiers dans `data/`.
 
