@@ -36,7 +36,7 @@ $$\\underbrace{\\text{Var}(R_i)}*{\\text{risque total}} = \\underbrace{\\beta_i^
 | --- | --- | --- |
 | **β (Bêta)** | `~1.1390` | ATR est **défensive** — moins volatile que le marché |
 | **α (Alpha)** | `~-0.000066` | Performance anormale nulle (H₀: α=0 non rejetée) |
-| **R²** | `~0.4085` | 65% de la variance d'ATR expliquée par le MASI |
+| **R²** | `~0.4085` | 41% de la variance d'ATR expliquée par le MASI |
 ---
 
 ## 🗂️ Structure du Projet
